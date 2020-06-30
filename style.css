@@ -1,3 +1,6 @@
+main {
+    height: 2345px;
+}
 nav {
     position: fixed;
     margin-top: -10px;
@@ -106,4 +109,34 @@ h3 {
 font-size: medium;
 letter-spacing: normal;
 color: lightslategrey;
+}
+#Name {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 1000px;
+    height: 50px;
+    font-size: small;
+}
+#send {
+    border: none;
+    background-color: lightgray;
+    font-size: large;
+}
+#contact {
+    text-align: left;
+}
+
+span {
+    line-height: 30px;
+}
+
+h5 {
+    font-size: larger;
+    line-height: normal;
+    color: lightslategray;
+}
+
+footer {
+text-align: center;
+background-color: rgb(233, 231, 231);
 }
