@@ -9,6 +9,7 @@ nav {
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0px 3px 5px  lightgray;
+    z-index: 3;
    
 }
 ul {
@@ -34,12 +35,57 @@ a:hover {
 #burger {
     width: 1340px;
     display: inline-block;
+    float: none;
 }
 #margin {
     color: darkslategray ;
     font-weight: 400;
-    letter-spacing: 2pt;
-    font-size: 2.5em;
+    letter-spacing: 5pt;
+    font-size: 2em;
     margin-left: 20px;
     margin-top: -80px;
+}
+p {
+    white-space: pre-line;
+    align-items: center;
+    display: inline-block;
+    font-size: 17px;
+
+}
+
+article {
+    display: block;
+    height: 730px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 0.5px solid rgb(233, 231, 231);
+
+}
+#img2 {
+    float: left;
+    width: 500px;
+    margin-right: 50px;
+    opacity: 75%;
+    border-radius: 5px;
+}
+#img3 {
+    float: right;
+    width: 500px;
+    height: 600px;
+    margin-left: 50px;
+    opacity: 75%;
+    border-radius: 5px;  
+}
+h2 {
+    font-weight: lighter;
+    letter-spacing: 5pt;
+    font-size: 2em;
+    margin-left: 20px;
+}
+h3 {
+    font-weight: lighter;
+    letter-spacing: 5pt;
+    font-size: em;
+    margin-left: 20px;
 }
