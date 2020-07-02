@@ -1,0 +1,19 @@
+* {
+    font-family: "Lato", sans-serif
+}
+nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    margin-top: -8px;
+}
+li {
+    display: inline;
+}
+p {
+    white-space: pre;
+}
+#imgA {
+    width: 100%;
+    }
